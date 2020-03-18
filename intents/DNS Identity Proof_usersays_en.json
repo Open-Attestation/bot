@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e07b069b-43f2-4884-aa2f-94c2b695d18f",
+    "data": [
+      {
+        "text": "identity proof",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "089096d4-e4b1-4fbc-940c-7907d67f0207",
+    "data": [
+      {
+        "text": "DNS Identity Proof",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

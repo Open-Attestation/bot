@@ -1,0 +1,35 @@
+{
+  "id": "b9253f29-6798-4c40-990b-549ef2767c63",
+  "name": "DNS TXT details",
+  "auto": true,
+  "contexts": [
+    "DnsIdentityProof-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Details available at https://docs.opencerts.io/dns_verification.html"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

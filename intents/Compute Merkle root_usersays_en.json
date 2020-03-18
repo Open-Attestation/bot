@@ -1,0 +1,38 @@
+[
+  {
+    "id": "802c1d71-487f-4b03-8a12-63d18c9db591",
+    "data": [
+      {
+        "text": "cli",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c22f04a9-a6a0-40ce-8446-fa7129b3beb1",
+    "data": [
+      {
+        "text": "batching",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b9d05f0-c9ce-4866-b47e-e25227e8a486",
+    "data": [
+      {
+        "text": "Compute Merkle root",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

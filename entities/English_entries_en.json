@@ -1,0 +1,95 @@
+[
+  {
+    "value": "Certificate",
+    "synonyms": [
+      "Certificate",
+      "Cert",
+      "Certs",
+      "Certificates"
+    ]
+  },
+  {
+    "value": "CertificateStore",
+    "synonyms": [
+      "CertificateStore",
+      "Certificate Store",
+      "certstore",
+      "cert store",
+      "certificatestores",
+      "cert stores"
+    ]
+  },
+  {
+    "value": "DocumentStore",
+    "synonyms": [
+      "DocumentStore",
+      "Document Store",
+      "docstore",
+      "doc store",
+      "docstores",
+      "doc stores"
+    ]
+  },
+  {
+    "value": "merkle",
+    "synonyms": [
+      "merkle",
+      "hash",
+      "checksum",
+      "merkle root"
+    ]
+  },
+  {
+    "value": "issuance",
+    "synonyms": [
+      "issuance",
+      "issuing"
+    ]
+  },
+  {
+    "value": "consumption",
+    "synonyms": [
+      "consumption",
+      "consume",
+      "consumed",
+      "used",
+      "usage"
+    ]
+  },
+  {
+    "value": "oa",
+    "synonyms": [
+      "oa",
+      "openattestation",
+      "open attestation"
+    ]
+  },
+  {
+    "value": "revocation",
+    "synonyms": [
+      "revoke",
+      "revocation",
+      "revoked",
+      "invalidate"
+    ]
+  },
+  {
+    "value": "dns txt",
+    "synonyms": [
+      "dns txt",
+      "dns text",
+      "dns txt record"
+    ]
+  },
+  {
+    "value": "bye",
+    "synonyms": [
+      "bye",
+      "bye bye",
+      "bb",
+      "cya",
+      "see you",
+      "see you again"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "b1f92d01-23d1-4ae0-9df7-47ca39593f09",
+  "parentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "rootParentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "name": "Document Store",
+  "auto": true,
+  "contexts": [
+    "DocStorevsCertStore-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DocStorevsCertStore.DocStorevsCertStore-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

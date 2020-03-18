@@ -1,0 +1,50 @@
+[
+  {
+    "id": "6f41574d-6c7b-49b8-b337-286cd004fb40",
+    "data": [
+      {
+        "text": "certificate template",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b40800e-8441-4305-b7de-cd269c7ca1a9",
+    "data": [
+      {
+        "text": "document template",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7b1bc37-b4a1-420e-95aa-082d3c586d88",
+    "data": [
+      {
+        "text": "Certificate templates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05671458-68ec-475d-a346-e3801a14e13c",
+    "data": [
+      {
+        "text": "Document Templates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

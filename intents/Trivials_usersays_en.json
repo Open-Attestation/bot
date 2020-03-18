@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d7cd972f-34c2-4eea-bbb2-6374053b9872",
+    "data": [
+      {
+        "text": "random",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc1e9f37-fec8-4235-bfac-558663e55f0f",
+    "data": [
+      {
+        "text": "tip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b64688a8-cf2d-482a-85c7-f753155c7254",
+    "data": [
+      {
+        "text": "tip of the day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

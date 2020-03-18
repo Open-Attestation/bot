@@ -1,0 +1,43 @@
+{
+  "id": "0fef6aae-9903-4ee4-85ee-957936e2fac5",
+  "parentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "rootParentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "name": "Deploying Certifcate Store",
+  "auto": true,
+  "contexts": [
+    "DocStorevsCertStore-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DocStorevsCertStore.DocStorevsCertStore-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "More details at https://docs.opencerts.io/deploying_store.html"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

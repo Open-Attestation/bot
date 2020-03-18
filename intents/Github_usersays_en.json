@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fa9ef4f0-7adc-4184-b08f-ce149e096ed4",
+    "data": [
+      {
+        "text": "source code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e059d54a-39e3-4734-9a1c-7984c9a527b7",
+    "data": [
+      {
+        "text": "code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e769583b-5486-46e5-bcc2-d79a953c23b5",
+    "data": [
+      {
+        "text": "repository",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7ac46799-b0e4-4af3-b057-b4bfd7df915b",
+    "data": [
+      {
+        "text": "gitlab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "29d7609e-7437-4a3d-bd46-b42316506a12",
+    "data": [
+      {
+        "text": "repo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77037c8f-5899-4f10-bba0-ada5c664b592",
+    "data": [
+      {
+        "text": "github",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "id": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "name": "DocStore And CertStore",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DocStorevsCertStore-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "DocStoreAndCertStore-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Please select a topic.",
+          "replies": [
+            "Document Store",
+            "Schema v2.0",
+            "Deploying Store",
+            "Certificate Store"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

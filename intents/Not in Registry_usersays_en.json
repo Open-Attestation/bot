@@ -1,0 +1,26 @@
+[
+  {
+    "id": "6dc4b52e-f7a2-400c-8cb4-17ea28a812ca",
+    "data": [
+      {
+        "text": "How do i onboard the registry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25394563-cd9b-42e4-9eaa-56327eceb1d4",
+    "data": [
+      {
+        "text": "Certificate issuer is not in the SkillsFuture registry for OpenCerts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

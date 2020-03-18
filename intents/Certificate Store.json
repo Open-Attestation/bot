@@ -1,0 +1,42 @@
+{
+  "id": "1fc4b465-5a0c-4ea9-b017-000f8dfb21f6",
+  "parentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "rootParentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "name": "Certificate Store",
+  "auto": true,
+  "contexts": [
+    "DocStoreAndCertStore-followup",
+    "DocStorevsCertStore-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DocStoreAndCertStore.DocStoreAndCertStore-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "CertificateStore shall be applied for schema version 1.5 and earlier.",
+            "Did you know?\nCertificateStore exists in version 2.0, for backward compatibility purposes. All documents issued version 2.0 and beyond should be using CertificateStore instead."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "8bfe56da-8e1a-4210-ac6e-b3444149f81d",
+  "parentId": "0d4bd714-12df-4cd3-ae95-7eecea1adbab",
+  "rootParentId": "0d4bd714-12df-4cd3-ae95-7eecea1adbab",
+  "name": "Compute Merkle root",
+  "auto": true,
+  "contexts": [
+    "Issuance-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Issuance.Issuance-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "",
+          "replies": [
+            "Next: Publish Merkle"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "The Merkle root can be computed by Installing the CLI Tool\n\nClone the certificate-cli source code repository to your deployment environment\ngit clone https://github.com/GovTechSG/certificate-cli.git\n\nNavigate into the directory\ncd certificate-cli\n\nInstall the dependencies for the package\nnpm install –production –ignore-scripts\n\n\nUsing the CLI Tool:\n\nPlace the unsigned certificates into a folder\nmkdir unsigned_certs mv \u003cpath/certs\u003e unsigned_certs\n\nRun the CLI Tool to batch the certificates\nnode index.js batch unsigned_certs signed_certs\n\nSample output:\n\n2018-08-30T05:06:55.313Z info: Batch Certificate Root: 70250f22ecaa7c12cdde4a4bc6dc3bf2464433691cd462bcfe980d7e85f6a06c\n\nUpon successful batching of the certificates, the merkle root for the entire batch will be printed and the signed certificates will be found in the folder signed_certs."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "More details available at https://docs.opencerts.io/batching_certificates.html"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

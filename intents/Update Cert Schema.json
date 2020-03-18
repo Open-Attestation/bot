@@ -1,0 +1,65 @@
+{
+  "id": "b7a249ff-4519-477d-98b1-e49d78a5fb23",
+  "name": "Update Cert Schema",
+  "auto": true,
+  "contexts": [
+    "DnsTextRecord-followup",
+    "DnsIdentityProof-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "UpdateCertSchema-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0fec3105-eb9d-4e0f-9d00-84424963a2e9",
+          "required": false,
+          "dataType": "@English",
+          "name": "english",
+          "value": "$english",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Next:",
+          "replies": [
+            "DNS Txt Details"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Certificate Schema Changes\n\nIn addition to Decentralised Rendering which will also require schema changes in OpenCerts 2.0, DNS verification adds a field identityProof to the issuer object. The issuer will need to already have deployed a Document Store contract as well as created the DNS TXT record as above.\n\nThe identityProof object will look like:\n\n\"issuers\": [\n{\n  \"network\": \"ETHEREUM\",\n  \"documentStore\": \"0x9178F546D3FF57D7A6352bD61B80cCCD46199C2d\",\n  \"identityProof\": {\n    \"type\": \"DNS-TXT\",\n    \"location\": \"openattestation.com\"\n  }\n}]"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

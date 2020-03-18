@@ -1,0 +1,51 @@
+{
+  "id": "a6511b89-022e-4966-9369-5c70779571cf",
+  "name": "Gas Price",
+  "auto": true,
+  "contexts": [
+    "GasCost-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "GasPrice-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "",
+          "replies": [
+            "Gas Consumption"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Gas Price depends on the code and the gas fee\n- for the same function the amount of gas of the code is the same\n- for different function the amount of gas of the code will be different\n- you can choose how much you want to pay per gas but depending on the supply and demand of the market, your transaction will take varying amount of time to be executed"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

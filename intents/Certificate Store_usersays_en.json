@@ -1,0 +1,38 @@
+[
+  {
+    "id": "25601112-6f48-4662-b898-bebe6b412ad0",
+    "data": [
+      {
+        "text": "certificate store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "39037ea8-205d-4073-a6b7-014b4fa8a416",
+    "data": [
+      {
+        "text": "certificatestore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c3e5c14-f72f-4abf-9ba8-1a39f7166284",
+    "data": [
+      {
+        "text": "certstore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

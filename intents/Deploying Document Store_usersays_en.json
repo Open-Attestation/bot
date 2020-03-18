@@ -1,0 +1,62 @@
+[
+  {
+    "id": "3500b07d-4e2b-498b-a6a5-7c91a5d34c98",
+    "data": [
+      {
+        "text": "Deploying Store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4fb186e3-fcb8-4b5f-8468-269fe761cf06",
+    "data": [
+      {
+        "text": "deploying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00f14113-e220-44cd-b8ad-24731a255770",
+    "data": [
+      {
+        "text": "document store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "404955e7-7547-4be2-a85a-22fb09f889f0",
+    "data": [
+      {
+        "text": "docstore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e0c4854-2d36-4189-b9fa-e0da8762a567",
+    "data": [
+      {
+        "text": "deploy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

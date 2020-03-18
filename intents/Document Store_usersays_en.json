@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e4233b6a-e00a-4f96-bf84-cc6ca23cf39a",
+    "data": [
+      {
+        "text": "documentstore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b85e4843-483b-4ce3-88eb-3cbda836b962",
+    "data": [
+      {
+        "text": "docstore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

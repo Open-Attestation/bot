@@ -1,0 +1,56 @@
+{
+  "id": "da1f3a5a-c6ae-4e61-b40d-cb76bca8cf2c",
+  "parentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "rootParentId": "d5c217f6-0132-49b8-9256-98b7b29dcfeb",
+  "name": "OpenCerts schema 2.0",
+  "auto": true,
+  "contexts": [
+    "DocStorevsCertStore-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DocStorevsCertStore.DocStorevsCertStore-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "706d5b4c-33e3-4eb4-9c1d-5371bd22c025",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "More info available at https://docs.opencerts.io/announcements/schema2_update.html"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

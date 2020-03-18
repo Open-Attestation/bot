@@ -1,0 +1,38 @@
+[
+  {
+    "id": "60e88951-fc69-4bd0-ba6b-7fb57ce93dd4",
+    "data": [
+      {
+        "text": "dns text",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b071003f-42c3-4692-8a69-f1100c5cfcbd",
+    "data": [
+      {
+        "text": "dns txt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d532cc54-cbab-4578-8387-fc5c34031f01",
+    "data": [
+      {
+        "text": "DNS TXT record",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

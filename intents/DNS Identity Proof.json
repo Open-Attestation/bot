@@ -1,0 +1,67 @@
+{
+  "id": "9b05cc48-74ed-46aa-8e6b-2f4289f1cb0b",
+  "name": "DNS Identity Proof",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DnsIdentityProof-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "How does DNS Text Verification work?\n\nUnder IETF RFC 1464, it is possible to store arbitrary string attributes as part of a domain’s record set. This method is currently widely used for email server authentication (SPF, DMARC, DKIM). Our DNS identity proof technique was largely inspired by Keybase DNS proofs.\n\nOnly domain name owners (and the registrar that they trust) have the authority to make changes to the records associated with that domain name. Thus when a DNS record endorses a certain fact, it transitively asserts that this fact is believed to be true by the domain name owner.\n\nIn an OpenCerts 2.0 DNS-TXT identity proof, we record an OpenCerts Document Store address and the network (e.g Ethereum, Main Net) it is on. In the OpenCert document itself, we declare the domain name to search for the record as well as the Document Store Ethereum address. This forms a bi-directional trust assertion, and if the OpenCert’s cryptographic proof is issued on that Document Store - we can say that the domain name owner has endorsed the issuance of this OpenCert document."
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Changes to be made:",
+          "replies": [
+            "What is DNS",
+            "DNS Text",
+            "Update Schema",
+            "DNS TXT details"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

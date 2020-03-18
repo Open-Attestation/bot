@@ -1,0 +1,26 @@
+[
+  {
+    "id": "3f616927-f8d2-4eae-8157-1ac8944214db",
+    "data": [
+      {
+        "text": "gas consumed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2205a54c-8f04-4fb9-ad40-13ff38f1d240",
+    "data": [
+      {
+        "text": "gas consumption",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

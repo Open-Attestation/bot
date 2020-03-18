@@ -1,0 +1,51 @@
+{
+  "id": "690a9eab-8f24-40d6-b458-06a06e3a1a00",
+  "name": "Where to verify",
+  "auto": true,
+  "contexts": [
+    "Verification-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Verification.Verification-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "You can verify certificates issued in the .opencerts format at https://opencerts.io/"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Next:",
+          "replies": [
+            "Verification API"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

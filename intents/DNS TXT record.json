@@ -1,0 +1,57 @@
+{
+  "id": "743afc97-0acc-4e41-a1d0-8d7c606834a3",
+  "name": "DNS TXT record",
+  "auto": true,
+  "contexts": [
+    "WhatIsDns-followup",
+    "DnsIdentityProof-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DnsTextRecord-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "Create DNS TXT Record:\n\nThe issuer will need to add a DNS TXT record to his domain name, the exact steps to achieve this can be confirmed with their domain name registrar.\n\nThe TXT record should look like\n\nopenatts net\u003dethereum netId\u003d1 addr\u003d0x9178F546D3FF57D7A6352bD61B80cCCD46199C2d\nnetId can hold 2 different values:\n\n1: for documentStore deployed on the main network (mainnet).\n3: for documentStore deployed on the test network (ropsten).\n\nOptionally, the issuer may also publish an A record at the same address so that the if the certificate viewer clicks on the URL, they can see some helpful text regarding the issuer’s OpenCerts program."
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Next:",
+          "replies": [
+            "Update Schema"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

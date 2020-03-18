@@ -1,0 +1,39 @@
+{
+  "id": "f256308d-8dfa-4989-8c1b-d78a8d734cab",
+  "name": "Trivials",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Can\u0027t anyone just copy my certificate file and pass off as me?\nYes, the certificate file can trivially be duplicated. However, the recipient\u0027s name in the certificate cannot be altered without failing our verification process. Thus it is extremely important that the person doing the verification ensures that the recipient indicated in the certificate is actually the entity presenting the certificate. For more advanced institutions, there is the possibility of using Distributed IDs to associate the certificate recipient\u0027s public key for further authentication using public/private key signing in the future.",
+            "What does it mean by Ethereum Blockchain?\nThe Ethereum Blockchain is a publicly usable distributed ledger based on blockchain technology. You can think of it as a publicly readable database.",
+            "How do I send my OpenCerts certificate to someone?\nYou may use the share button that is visible when you view your certificate, or you can simply email the OpenCerts file to them.",
+            "Why can\u0027t I print the certificate?\nPrinting the certificate discards all the advanced cryptographic protections we have built into OpenCerts, hence printed certificates are not to be considered authentic.",
+            "What happens if I modify the OpenCerts file?\nThe modified certificate will fail validation and show up as having been tampered with."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

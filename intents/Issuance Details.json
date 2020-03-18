@@ -1,0 +1,51 @@
+{
+  "id": "c24d3d2f-1d8a-460f-9762-2cbc7043bd80",
+  "parentId": "0d4bd714-12df-4cd3-ae95-7eecea1adbab",
+  "rootParentId": "0d4bd714-12df-4cd3-ae95-7eecea1adbab",
+  "name": "Issuance Details",
+  "auto": true,
+  "contexts": [
+    "Issuance-followup",
+    "PublishMerkleRoot-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8706cfa7-7fe2-47e0-998c-08b155c2c13e",
+          "required": false,
+          "dataType": "@English",
+          "name": "english",
+          "value": "$english",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "More details available at https://openattestation.com/docs/verifiable-document/issuing-document"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

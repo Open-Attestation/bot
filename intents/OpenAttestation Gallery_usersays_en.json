@@ -1,0 +1,38 @@
+[
+  {
+    "id": "43762bcf-28fe-4368-8cec-9892ca072305",
+    "data": [
+      {
+        "text": "sample render",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b90bd5e2-a422-4917-9db4-cc6a186ad660",
+    "data": [
+      {
+        "text": "gallery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "227bb18c-9920-45a8-92e7-53508a18d918",
+    "data": [
+      {
+        "text": "OA Gallery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

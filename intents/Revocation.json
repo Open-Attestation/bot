@@ -1,0 +1,46 @@
+{
+  "id": "9a7595ef-6024-4050-98a8-74ae70ccbcfd",
+  "name": "Revocation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c7a4c770-8158-4c7c-ab34-0e28a898abcd",
+          "required": false,
+          "dataType": "@English",
+          "name": "english",
+          "value": "$english",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "You may revoke documents which had previously been issued at https://admin.opencerts.io/\n\nStep 1: \nInput your document store address\n\nStep 2:\nInput the hash value for the document to be revoked\n\nStep 3:\nClick revoke button"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
